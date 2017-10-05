@@ -12,9 +12,11 @@ Self-Driving Car Engineer Nanodegree Program
 ### Introduction  
 In this project, the pixels of a road in images are labels using a Fully Convolutional Network (FCN). The data contains the train/test image of RGB.  
 The ground truth images are combined to a set of two binary images (2 classes) segmented to the road and background for the training and prediction in this project. All roads (both lanes) will be detected. The model has been built from pre-trained VGG 16 network in which the 3rd,and 4th pooling layer are connected (skip connections) to the final fully connected layer 7. The architecture and dimenstion of the network are presented below.    
+![bg][image0]  
+Not road (background)  
+![rd][image1]  
+Road  
 
-![bg][image0]
-![rd][image1]
 Figure 1:  2 binary classes (road/background)
 
 ### FCN Architecture  
