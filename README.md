@@ -5,8 +5,8 @@ Self-Driving Car Engineer Nanodegree Program
 [image0]: ./result/bin1.png "background"
 [image1]: ./result/bin2.png "road"
 [image2]: ./result/um_000003.png "result1"
-[image3]: ./result/um_000043.png "result2"
-[image4]: ./result/um_000062.png "result3"
+[image3]: ./result/uu_000043.png "result2"
+[image4]: ./result/uu_000062.png "result3"
 [video]: ./result/out_video_raw.mp4 "video"
 
 ### Introduction  
