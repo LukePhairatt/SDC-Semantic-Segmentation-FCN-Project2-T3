@@ -32,6 +32,7 @@ KEEP_PROB = 0.7
 EPOCHS = 10
 BATCH_SIZE = 1                      # note: there may be an out of memory issue with Adamoptimizer (other optimizers are fine with a bigger batch)
                                     #       the image size is quite big for this project. It requires big GPU memory to store and gradient calculations
+IMAGE_AUGMENT = False
 
 
 #    
@@ -182,7 +183,7 @@ def train_nn(sess, epochs, batch_size, get_batches_fn, train_op, cross_entropy_l
         # image: 3 channel 160, 576, 3
         # label: 2 classes binary 160. 576, 2 (e.g. channel [0]- not road highlight, channel [1]- road highlight)
         # so we could use the model to learn what the segmentation could be by given the prediction of the same size as the label 
-        for image, label in get_batches_fn(batch_size, img_augment=True):
+        for image, label in get_batches_fn(batch_size, img_augment=IMAGE_AUGMENT):
             itr += 1
             # feed data to the given layers
             feed = {input_image: image,
