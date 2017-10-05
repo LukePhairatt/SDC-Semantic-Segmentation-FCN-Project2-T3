@@ -2,8 +2,8 @@
 Self-Driving Car Engineer Nanodegree Program
 
 [//]: # (Image References)
-[image0]: ./result/bin1.png "background"
-[image1]: ./result/bin2.png "road"
+[image0]: ./result/bin_bg.png "background"
+[image1]: ./result/bin_rd.png "road"
 [image2]: ./result/um_000003.png "result1"
 [image3]: ./result/uu_000043.png "result2"
 [image4]: ./result/uu_000062.png "result3"
