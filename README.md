@@ -7,7 +7,7 @@ Self-Driving Car Engineer Nanodegree Program
 [image2]: ./result/um_000003.png "result1"
 [image3]: ./result/uu_000043.png "result2"
 [image4]: ./result/uu_000062.png "result3"
-[video]: ./result/out_video_raw.mp4 "video"
+[video]: ./result/ "video"
 
 ### Introduction  
 In this project, the pixels of a road in images are labels using a Fully Convolutional Network (FCN). The data contains the train/test image of RGB.  
@@ -62,7 +62,7 @@ python main.py
 ![result1][image2]  
 ![result2][image3]  
 ![result3][image4]  
-![video][video]  
+![video file][video]  
 
 
 
